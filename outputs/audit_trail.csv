@@ -1,0 +1,3 @@
+dataset,decision,rows_affected,reason
+sales,Remove exact duplicate rows,765,Exact duplicate export rows add no new observation; count retained in data_quality.csv
+stores,Normalize city case and common aliases,64,"Use consistent city groups for store, sales and warehouse incident analysis"

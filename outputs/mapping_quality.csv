@@ -1,0 +1,8 @@
+check,count
+unmapped sales dark stores,0
+unmapped product platform IDs,0
+sales platform differs from store platform,0
+potential duplicate PO IDs,0
+duplicate dark_store_id mappings,0
+duplicate platform product ID mappings,0
+missing product mappings for purchase orders,0

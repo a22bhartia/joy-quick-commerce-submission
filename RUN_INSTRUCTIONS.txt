@@ -1,0 +1,40 @@
+JOY QUICK COMMERCE INTELLIGENCE - RUN INSTRUCTIONS
+
+Prerequisites
+- Install Python 3.10 or newer.
+- Internet access is required for the first dependency installation.
+
+1. Extract JOY_QUICK_COMMERCE_SUBMISSION_FINAL.zip.
+2. Open Command Prompt or PowerShell.
+3. Change directory into the extracted project folder. Example:
+
+   cd /d C:\Users\YourName\Desktop\Project\JOY_QUICK_COMMERCE_SUBMISSION
+
+   Replace the example path with the folder where you extracted the ZIP.
+   In PowerShell, `cd` to that same folder (the `/d` option is for Command Prompt).
+
+4. Install the required Python packages:
+
+   pip install -r requirements.txt
+
+5. Start the Streamlit application:
+
+   streamlit run app.py
+
+6. Open the Local URL printed in the terminal, usually:
+
+   http://localhost:8501
+
+Keep the terminal window open while using the application. To stop it, return to
+the terminal and press Ctrl+C.
+
+The supplied CSV files are in the `data` folder. The Monday report and analysis
+exports are already in `Monday_16_November_2026_Report.pdf` and `outputs`.
+To regenerate the report and CSV outputs from the supplied data, run this from
+the project folder:
+
+   python generate_outputs.py
+
+If `streamlit` is not recognized, use:
+
+   python -m streamlit run app.py

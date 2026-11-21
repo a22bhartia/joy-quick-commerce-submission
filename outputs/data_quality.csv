@@ -1,0 +1,5 @@
+dataset,rows_input,exact_duplicates,rows_retained,platform_names_normalized,invalid_dates,missing_cells
+sales,186285,765,185520,0,0,0
+stores,202,0,202,0,0,0
+products,45,0,45,0,0,0
+orders,2694,0,2694,0,0,0
